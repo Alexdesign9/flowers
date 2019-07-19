@@ -1,0 +1,149 @@
+.main
+	background: url('../img/main/petals.png') top center no-repeat
+	padding-top: 50px
+	padding-bottom: 70px
+	border-bottom: 1px solid #4c4c4c
+.content
+	margin: 0 auto
+	max-width: 1140px
+.header	
+	margin-bottom: 123px
+	display: flex
+	justify-content: center
+	align-items: center
+	
+	div
+		display: inline-block
+	&-logo
+		vertical-align: middle
+
+	&-descr
+		margin-left: 42px
+		color: rgba($color, 0.5)
+		font-family: "Gotham Pro"
+		font-size: 12px
+		font-weight: 300
+		letter-spacing: 0.12px
+		vertical-align: middle
+		span
+			color: #ff3469
+			font-family: "Gotham Pro Medium"
+			font-weight: 500
+			letter-spacing: 0.12px
+	&-contacts
+		vertical-align: middle
+		margin-left: 430px
+		text-align: right
+		div
+			display: block
+		&_phone
+			font-size: 20px
+			font-weight: 500
+			color: $color
+			letter-spacing: 0.2px
+			text-decoration: none
+		&_descr
+			font-size: 12px
+			font-weight: 400
+			letter-spacing: 0.12px
+			padding-bottom: 16px
+		&_link
+			font-size: 16px
+			font-weight: 400
+			letter-spacing: 0.16px
+			color: #ff3469
+			text-decoration: underline
+			cursor: pointer
+
+.offer
+	text-align: center
+	
+	&-title
+		font-family: "Gotham Pro Medium"
+		font-size: 34px
+		font-weight: 500
+		letter-spacing: 0.34px
+		text-transform: uppercase
+		margin-bottom: 33px
+	&-subtitle
+		color: rgba($color, 0.6)
+		font-family: "Gotham Pro Light"
+		font-weight: 300
+		letter-spacing: 0.18px
+		font-size: 20px
+		margin-bottom: 100px
+		span
+			color: $color
+			font-family: "Gotham Pro Medium"
+			font-weight: 500
+		&-link
+			text-decoration: none
+			&:hover
+				color: $color
+
+	&-slider
+		margin-right: 0
+		margin-left: 0
+		margin: auto
+		width: 870px
+		margin-bottom: 67px
+
+
+		img
+			
+			outline: none
+			height: 76px
+			margin-right: 32px
+			margin-left: 32px
+			background: url(../img/main/flowers-bg.png) center no-repeat
+			&:hover
+				background: url(../img/main/flowers-bg-hover.png) center no-repeat
+				cursor: pointer
+		&-arrow
+			top: 32px
+			position: absolute
+			height: 14px
+			width: 8px
+			z-index: 1
+			&_left
+				left: 0
+				background: transparent url(../img/main/arrow-left.png) center no-repeat
+				&:hover
+					left: 0
+					background: transparent url(../img/main/arrow-active_left.png) center no-repeat
+					cursor: pointer
+			&_right
+				right: 0
+				background: transparent url(../img/main/arrow-right.png) center no-repeat
+				&:hover
+					right: 0
+					background: transparent url(../img/main/arrow-active_right.png) center no-repeat
+					cursor: pointer
+	&-text
+		margin-bottom: 36px
+		letter-spacing: 0.19px
+		font-size: 19px
+		font-weight: 400
+		text-transform: uppercase
+		span
+			font-family: "Gotham Pro Medium"
+
+	&-button
+		
+		color: $color
+		font-size: 18px
+		font-weight: 500
+		text-transform: uppercase
+		letter-spacing: 0.18px
+		width: 300px
+		height: 70px
+		border: 3px solid $color-active
+		background-color: $color-active
+		&:hover
+			cursor: pointer
+		&:focus
+			outline: none
+	
+.screen992
+		display: none
+

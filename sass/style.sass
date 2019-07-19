@@ -1,0 +1,25 @@
+$color: #fff
+$color-active: #ff2e55
+body
+	background-color: #292929
+	font-family: "Gotham Pro"
+	color: $color
+img
+	max-width: 100%
+
+input, button
+	&:focus
+		outline: none
+button
+	&:hover
+		background-color: darken($color-active, 5)
+		cursor: pointer
+
+@import 'main'
+@import 'modal'
+@import 'feedback'
+@import 'constructor'
+@import 'questions'
+@import 'contacts'
+@import 'footer'
+@import 'media'

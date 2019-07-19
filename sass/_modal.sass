@@ -1,0 +1,85 @@
+.overlay
+	height: 100%
+	width: 100%
+	background-color: rgba(#000, 0.5)
+	top: 0
+	z-index: 2
+	position: fixed
+
+.popup
+	position: fixed
+	width: 516px
+	height: 306px
+	background-color: #f8f6f0
+	top: 50%
+	left: 50%
+	transform: translateX(-50%) translateY(-50%)
+	&-flowers
+		display: none
+	&-call
+		display: none
+	&-photo1
+		display: none
+	&-photo2
+		display: none
+	&-photo3
+		display: none
+	&-close
+		position: absolute
+		right: -50px
+		cursor: pointer
+	&-rose1
+		position: absolute
+		right: 0
+	&-rose2
+		position: absolute
+		bottom: -3px
+	&-text
+		padding-top: 58px
+		padding-left: 58px
+		padding-right: 58px
+		&_title
+			font-family: "Gotham Pro Medium"
+			font-size: 24px
+			font-weight: 500
+			letter-spacing: 0.24px
+			text-transform: uppercase
+			color: #f64f6b
+			margin-bottom: 29px
+		&_descr
+			font-family: "Gotham Pro Light"
+			font-size: 16px
+			color: #1c1c1c
+			font-weight: 400
+			letter-spacing: 0.16px
+.form
+	margin-top: 20px
+	&-wrap
+		text-align: center
+
+		&__input
+			margin-bottom: 20px
+			text-align: center
+			height: 40px
+			
+			font-family: "Gotham Pro Medium"
+			font-size: 20px
+			font-weight: 500
+			color: #f64f6b
+			border: 2px solid #f64f6b
+			
+			&::-webkit-input-placeholder
+				color: rgba(#f64f6b, 0.5)
+		&__button
+			padding: 10px
+			font-size: 15px
+			
+			
+			text-transform: uppercase
+			border: 2px solid #f64f6b
+			background-color: #f64f6b
+			color: $color
+
+			
+
+
